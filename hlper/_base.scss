@@ -163,12 +163,12 @@ body{
 .service-banner{
     background-repeat: no-repeat;
     background-position: center center;  
-    background-image: url(../img/banner.png);   
+    background-image: url(./img/banner.png);   
     height: 288px;
  //up-sm就是≥576的時候會換圖片
     @include media-breakpoint-down(sm) {             
          height: 215px;
-         background-image: url(../img/banner_service-sm.png);       
+         background-image: url(./img/banner_service-sm.png);       
      }
  }
  
