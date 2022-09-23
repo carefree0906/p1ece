@@ -13255,7 +13255,7 @@ body {
 .banner {
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(./img/home_mobile.png);
+  background-image: url(../img/home_mobile.png);
   height: 635px;
   background-size: cover;
   margin-bottom: 80px;
@@ -13263,7 +13263,7 @@ body {
 @media (min-width: 576px) {
   .banner {
     height: 100vh;
-    background-image: url(./img/home.png);
+    background-image: url(../img/home.png);
   }
 }
 
@@ -13297,7 +13297,7 @@ body {
 }
 
 .custom-img-hover {
-  background-image: url(./img/btn2.png);
+  background-image: url(../img/btn.png);
   width: 140px;
   height: 185px;
   background-repeat: no-repeat;
@@ -13307,7 +13307,7 @@ body {
   z-index: 100;
 }
 .custom-img-hover:hover {
-  background-image: url(./img/btn.png);
+  background-image: url(../img/btn.png);
   background-repeat: no-repeat;
 }
 
@@ -13323,13 +13323,13 @@ body {
 .service-banner {
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(./img/banner.png);
+  background-image: url(../img/banner.png);
   height: 288px;
 }
 @media (max-width: 575.98px) {
   .service-banner {
     height: 215px;
-    background-image: url(./img/banner_service-sm.png);
+    background-image: url(../img/banner_service-sm.png);
   }
 }
 
