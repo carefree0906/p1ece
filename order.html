@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <title>P1ece</title>
+</head>
+<body>
+<!--nav-->  
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light py-4 align-items-center">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" style="background-image: url(./img/logo.png);width: 119px;height: 40px;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link mx-4 active" aria-current="page" href="index.html">首頁</a>
+            <a class="nav-link mx-4" href="product.html">商品分類</a>
+            <a class="nav-link mx-4" href="design.html">設計商品</a>   
+            <a class="nav-link mx-4" href="service.html">訂製流程</a>               
+            <a type="button" class="btn btn-primary  px-5 rounded-pill" href="order.html">訂製專區</a>                  
+          </div>
+        </div>
+      </div>
+   </nav>
+</div>
+
+<!--service-banner-->   
+    <header class="service-banner mb-80">
+      
+    </header>
+
+
+
+<!--step-->
+    <div class="container mb-80"> 
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="mb-3 shadow-sm p-3">            
+                  <form class="row g-3 need-vaildation" novalidate>
+                    <div class="col-md-6">
+                      <label for="inputName" class="form-label" required>名字</label>
+                      <input type="text" class="form-control" id="inputName">
+                      <div class="invalid-feedback">
+                        請填寫名字
+                      </div>                      
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputName1" class="form-label" required>姓氏</label>
+                      <input type="text" class="form-control" id="inputName1">
+                      <div class="invalid-feedback">
+                        請填寫姓氏
+                      </div>
+                    </div>                    
+                    <div class="col-12">
+                      <label for="inputTel" class="form-label" required>手機號碼</label>
+                      <input type="tel" class="form-control" id="inputTel">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputEmail4" class="form-label" required>電子郵件</label>
+                      <input type="email" class="form-control" id="inputEmail4">                      
+                    </div>
+                    <div class="col-12">
+                      <div class="row align-items-end">
+                        <div class="col-md-6  mb-3 mb-md-0">
+                          <label for="inputAddress" class="form-label" required>收件地址</label>
+                          <select id="inputAddress" class="form-select">
+                            <option selected>請選擇城市</option>
+                            <option>台北市</option>
+                            <option>新北市</option>
+                            <option>台中市</option>                        
+                          </select>
+                        </div>
+                        <div class="col-md-6">
+                          <select id="inputAddress1" class="form-select" required>
+                            <option selected>請選擇城市</option>
+                            <option>台北市</option>
+                            <option>新北市</option>
+                            <option>台中市</option>                        
+                          </select>
+                        </div>                        
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <input type="text" class="form-control" id="inputAddress2" required> 
+                    </div>
+
+                    <div class="col-12">
+                      <label for="inputStyle" class="form-label" required>選擇設計師風格</label>
+                      <select id="inputStyle" class="form-select">
+                        <option selected>Angie Rozelaar</option>
+                        <option>KE-DONG,LIANG</option>
+                        <option>Ace</option>
+                        <option>Michael</option>    
+                        <option>Meili</option>                    
+                      </select>
+                    </div>
+
+                    <div class="col-12">
+                      <label for="inputStyle" class="form-label" required>選擇商品</label>
+                      <select id="inputStyle" class="form-select">
+                        <option selected>綠野仙蹤</option>
+                        <option>科學怪人</option>
+                        <option>傲慢與偏見</option>
+                        <option>安娜·卡列尼娜</option>    
+                        <option>巧克力冒險工廠</option>                    
+                      </select>
+                    </div>
+
+                    <div class="col-12">
+                      <label for="inputStyle1" class="form-label" required>付款方式</label>
+                      <select id="inputStyle1" class="form-select">
+                        <option selected>超商取貨付款</option>
+                        <option>信用卡</option>
+                        <option>line-pay</option>                        
+                      </select>
+                    </div>
+
+
+                    <div class="col-12">
+                      <label for="inputCheck" class="form-label" required>商品規格</label>
+                      <div class="row row-cols-2">
+                        <div class="col">
+                          <div class="form-check">
+                            <input class="form-check-input" name="flexRadioDefault" type="radio" id="flexRadioDefault1" required>
+                            <label class="form-check-label" for="flexRadioDefault1">
+                              拼圖100片
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="form-check">
+                            <input class="form-check-input" name="flexRadioDefault" type="radio" id="flexRadioDefault2" required>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                              拼圖500片
+                            </label>
+                          </div>                      
+                        </div>
+                        <div class="col">
+                          <div class="form-check">
+                            <input class="form-check-input" name="flexRadioDefault" type="radio" id="flexRadioDefault2" required>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                              繪本精裝
+                            </label>
+                          </div>                      
+                        </div>
+                        <div class="col">
+                          <div class="form-check">
+                            <input class="form-check-input" name="flexRadioDefault" type="radio" id="flexRadioDefault2" required>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                              積木34 pcs
+                            </label>
+                          </div>                      
+                        </div>                        
+                      </div>
+                    </div>
+
+                    <div class="col-12">
+                      <label for="inputTextarea1" class="form-label">備註說明</label>
+                      <textarea class="form-control" id="inputTextarea1" rows="4"></textarea>
+                    </div>
+                    
+                    
+                    <div class="col-12  text-center">
+                      <p class="fw-bold h4 mb-26">總金額 NT$ 300</p>
+                      <button type="submit" class="btn btn-primary rounded-pill btn-lg py-1 px-5 mb-40">送出訂購資訊</button>
+                    </div>
+                  </form>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+
+
+
+<!--footer-->
+<div class="border-top border-primary border-3 mb-55"></div>
+<div class="container mb-80">
+    <div class="row justify-content-center text-center text-md-start g-5">
+      <div class="col-md-5">
+        <div class="row g-3">
+          <div class="col-md-5">
+            <img src="./img/link01.png" class="img-fluid rounded-start" alt="link01">
+          </div>
+          <div class="col-md-7">
+              <p class="h4">加入我們的團隊</p>
+              <p class="text-nowrap">我也要把繪畫，變成商品</p>
+              <a href="#" class="btn btn-outline-secondary btn-lg fs-5 rounded-pill px-5">設計師合作專區</a>              
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="row g-3">
+          <div class="col-md-5">
+            <img src="./img/link02.png" class="img-fluid rounded-start" alt="link02">
+          </div>
+          <div class="col-md-7">
+              <p class="h4">加入我們的團隊</p>
+              <p class="text-nowrap">我有滿腦子的故事可以說</p>
+              <a href="#" class="btn btn-outline-secondary btn-lg fs-5 rounded-pill px-5">企劃合作專區</a>              
+          </div>
+        </div>
+      </div>
+    </div>
+</div>   
+
+<footer class="bg-secondary text-white text-center py-3">
+  <p class="mb-0">內容為個人切版練習</p>
+</footer>
+
+<!--fixed-bottom-->    
+<div class="container">
+  <div class="position-relative">
+    <a href="./order.html" class="d-md-block d-none">
+      <div class="custom-img-hover">            
+      </div> 
+    </a>
+    </div>
+</div>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous">
+
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl)
+    })
+
+
+    // 表單驗證Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+      'use strict'
+
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.querySelectorAll('.needs-validation') //這裡的class名稱上面如果有改也要跟著改
+
+      // Loop over them and prevent submission
+      Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+          form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+            }
+
+            form.classList.add('was-validated')
+          }, false)
+        })
+    })()    
+
+
+   </script>  
+   
+    
+</body>
+</html>
