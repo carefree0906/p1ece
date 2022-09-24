@@ -116,11 +116,11 @@ body{
          background-repeat: no-repeat;      
     }
 }
-@include media-breakpoint-down(sm) { 
-    .custom-img-fixed{
-        display: none;
-    }
-}
+// @include media-breakpoint-down(sm) { 
+//     .custom-img-fixed{
+//         display: none;
+//     }
+// }
 
 
 
